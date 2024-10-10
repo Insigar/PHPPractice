@@ -1,0 +1,28 @@
+/* .t_img {
+    display: grid;
+    grid-template-columns: max-content auto;
+} */
+
+.t_img {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+}
+
+.textfeld {
+    border-style: solid;
+    border-color: gray;
+    background-color: gray;
+    padding-left: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 0px;
+    max-width: 100%;
+}
+
+.pp {
+    border: 5px solid blue;
+    margin-left: 80px;
+    /* max-height: 400px; */
+    /* min-height: 200px; */
+}

@@ -1,0 +1,57 @@
+.loginBox {
+    background-color: silver;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.loginForm {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 10px;
+}
+
+.button {
+    grid-column-start: span 2;
+    padding: 5px 5px;
+    width: 120px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    font-size: medium;
+    border: 0;
+    border-radius: 6px;
+}
+
+.login {
+    background-color: rgba(21, 255, 0, 0.482);
+}
+
+.login:hover {
+    color: white;
+    background-color: green;
+}
+
+.signUp {
+    background-color: yellow;
+}
+
+.signUp:hover {
+    color: white;
+    background-color: rgb(166, 166, 0);
+}
+
+.back {
+    background-color: red;
+}
+
+.back:hover {
+    color: white;
+    background-color: rgb(180, 0, 0);
+}
+
+.tosLink {
+    color: rgba(21, 0, 255, 0.807);
+}

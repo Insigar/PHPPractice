@@ -1,0 +1,36 @@
+.loginBox {
+    border: solid black;
+    border-radius: 15px;
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    top: 20%;
+    left: 50%;
+    translate: -50%;
+}
+
+.formGrid {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 5px;
+}
+
+.imageTest {
+    border: 5px solid black;
+    display: flex;
+}
+
+.imageGrid {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 5px;
+    border: solid black;
+    height: 800px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    justify-content: center;
+}

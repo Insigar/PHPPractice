@@ -1,0 +1,17 @@
+.loginBox {
+    border: solid black;
+    border-radius: 15px;
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    top: 20%;
+    left: 50%;
+    translate: -50%;
+}
+
+.formGrid {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 5px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        div {
+            border: solid turquoise;
+            background-color: aqua;
+            border-radius: 15px;
+            width: 100px;
+            height: 100px;
+        }
+
+        body {
+            background-color: pink;
+        }
+
+        #center {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* text-align: center; */
+        }
+
+        #top-left {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            /* display: flex;
+            align-items: center;
+            justify-content: center; */
+        }
+
+        #top-right {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #bottom_right {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #bottom_left {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="center">center</div>
+    <div id="top-left">
+        <form>
+            <input type="text" name="inputName" placeholder="Name" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div id="top-right">tr</div>
+    <div id="bottom_left">
+        <textarea name="" id="" readonly>
+            <?php
+            Name
+            ?>
+        </textarea>
+    </div>
+    <div id="bottom_right">br</div>
+</body>
+
+</html>
